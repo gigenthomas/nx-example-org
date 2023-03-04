@@ -1,18 +1,28 @@
-import { AppProps } from 'next/app';
-import Head from 'next/head';
-import './styles.css';
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/600.css";
+import type { AppProps } from "next/app";
+import { ThemeProvider } from "styled-components";
+import { QueryClientProvider } from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import { NavigationProvider } from "@features/layout";
+import { GlobalStyle } from "@nx-example-org/ui-shared";
+import { theme } from "@nx-example-org/ui-shared";
 
-function CustomApp({ Component, pageProps }: AppProps) {
+import { queryClient } from "@api/query-client";
+
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <Head>
-        <title>Welcome to prolog-app!</title>
-      </Head>
-      <main className="app">
-        <Component {...pageProps} />
-      </main>
-    </>
+    <ThemeProvider theme={theme}>
+      <QueryClientProvider client={queryClient}>
+        <NavigationProvider>
+          <GlobalStyle />
+          <Component {...pageProps} />
+        </NavigationProvider>
+        <ReactQueryDevtools initialIsOpen={false} />
+      </QueryClientProvider>
+    </ThemeProvider>
   );
 }
 
-export default CustomApp;
+export default MyApp;

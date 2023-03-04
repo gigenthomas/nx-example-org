@@ -1,5 +1,6 @@
 import styles from './index.module.css';
-import { Header } from '@nx-example-org/ui-shared'; 
+import { Button, Header  } from '@nx-example-org/ui-shared'; 
+
 
 export function Index() {
   /*
@@ -18,7 +19,8 @@ export function Index() {
             </h1>
           </div>
 
-          <div>Header</div>
+         <Button> Styled Button </Button>
+       
           <div id="hero" className="rounded">
             <div className="text-container">
               <h2>
