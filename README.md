@@ -22,5 +22,7 @@ npx nx run prolog-app:serve
 
 npx nx generate @nrwl/react:library ui-shared-layout 
 
+npx nx generate @nrwl/react:library projects
+
 
 npx nx g @nrwl/node:lib prolog-api  --no-interactive 

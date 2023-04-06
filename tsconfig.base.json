@@ -19,6 +19,7 @@
         "packages/capability/issues/src/index.ts"
       ],
       "@nx-example-org/issues": ["packages/issues/src/index.ts"],
+      "@nx-example-org/projects": ["packages/projects/src/index.ts"],
       "@nx-example-org/prolog-api": ["packages/prolog-api/src/index.ts"],
       "@nx-example-org/prolog-shared-models": [
         "packages/prolog-shared-models/src/index.ts"

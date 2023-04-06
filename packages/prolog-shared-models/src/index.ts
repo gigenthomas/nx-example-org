@@ -1,1 +1,2 @@
-export * from './lib/config/routes';
+
+export * from './lib/page.types'

@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
-import { PageContainer } from "@features/layout";
-import { ProjectList } from "@features/projects";
+import { PageContainer } from "@nx-example-org/ui-shared-layout";
+import { ProjectList } from "@nx-example-org/projects";
 
 const Home: NextPage = () => {
   return (
