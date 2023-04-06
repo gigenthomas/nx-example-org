@@ -1,11 +1,11 @@
 import Link from "next/link";
 import styled from "styled-components";
 import capitalize from "lodash/capitalize";
-import { Badge, BadgeColor } from "@features/ui";
-import { color, displayFont, space, textFont } from "@styles/theme";
-import { Routes } from "@config/routes";
-import { ProjectLanguage, ProjectStatus } from "@api/projects.types";
-import type { Project } from "@api/projects.types";
+import { Badge, BadgeColor } from "@nx-example-org/ui-shared";
+import { color, displayFont, space, textFont } from "@nx-example-org/ui-shared";
+import { Routes } from "@nx-example-org/ui-shared";
+import { ProjectLanguage, ProjectStatus } from "@nx-example-org/prolog-api";
+import type { Project } from "@nx-example-org/prolog-api";
 
 type ProjectCardProps = {
   project: Project;

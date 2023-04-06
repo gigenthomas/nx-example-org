@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { breakpoint, space } from "@styles/theme";
+import { breakpoint, space } from "@nx-example-org/ui-shared";
 import { ProjectCard } from "../project-card";
 import { useGetProjects } from "../../api/use-get-projects";
 
