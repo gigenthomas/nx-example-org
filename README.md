@@ -18,4 +18,7 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 
 
-nx generate @nrwl/react:library ui-shared-layout 
+npx nx generate @nrwl/react:library ui-shared-layout 
+
+
+npx nx g @nrwl/node:lib prolog-api  --no-interactive 

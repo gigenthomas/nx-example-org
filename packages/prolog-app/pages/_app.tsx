@@ -9,7 +9,7 @@ import { NavigationProvider } from "@nx-example-org/ui-shared-layout";
 import { GlobalStyle } from "@nx-example-org/ui-shared";
 import { theme } from "@nx-example-org/ui-shared";
 
-import { queryClient } from "@api/query-client";
+import { queryClient } from "@nx-example-org/prolog-api";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
