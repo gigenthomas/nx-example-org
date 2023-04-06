@@ -18,6 +18,8 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 
 
+npx nx run prolog-app:serve
+
 npx nx generate @nrwl/react:library ui-shared-layout 
 
 

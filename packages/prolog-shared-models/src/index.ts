@@ -1,1 +1,1 @@
-export * from './lib/prolog-shared-models';
+export * from './lib/config/routes';

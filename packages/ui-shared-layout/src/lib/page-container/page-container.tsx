@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import styled from "styled-components";
 import { SidebarNavigation } from "../sidebar-navigation";
-import { color, displayFont, textFont, space, breakpoint } from "@styles/theme";
+import { color, displayFont, textFont, space, breakpoint } from "@nx-example-org/ui-shared";
 
 type PageContainerProps = {
   children: React.ReactNode;

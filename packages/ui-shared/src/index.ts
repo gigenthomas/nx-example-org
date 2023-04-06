@@ -6,3 +6,4 @@ export * from './lib/button/button';
 export * from './lib/header/header';
 export * from './lib/ui-shared';
 export * from './lib/styles/theme';
+export * from './lib/config/routes';

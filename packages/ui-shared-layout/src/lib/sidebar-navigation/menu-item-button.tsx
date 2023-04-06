@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@features/ui";
+import { Button } from "@nx-example-org/ui-shared";
 import { ListItem, Anchor, Icon } from "./menu-item-link";
 
 type MenuItemProps = {

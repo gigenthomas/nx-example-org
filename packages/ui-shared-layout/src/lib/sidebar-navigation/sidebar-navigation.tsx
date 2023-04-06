@@ -1,12 +1,12 @@
 import { useRouter } from "next/router";
 import { useContext, useState } from "react";
 import styled, { css } from "styled-components";
-import { Routes } from "@config/routes";
+import { Routes } from "@nx-example-org/ui-shared";
 import { NavigationContext } from "./navigation-context";
 import { MenuItemButton } from "./menu-item-button";
 import { MenuItemLink } from "./menu-item-link";
-import { Button } from "@features/ui";
-import { breakpoint, color, space, zIndex } from "@styles/theme";
+import { Button } from "@nx-example-org/ui-shared";
+import { breakpoint, color, space, zIndex } from "@nx-example-org/ui-shared";
 
 const menuItems = [
   { text: "Projects", iconSrc: "/icons/projects.svg", href: Routes.projects },

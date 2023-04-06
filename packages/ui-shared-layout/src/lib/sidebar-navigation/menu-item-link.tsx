@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import styled from "styled-components";
-import { color, space } from "@styles/theme";
+import { color, space } from "@nx-example-org/ui-shared";
 
 type MenuItemProps = {
   text: string;
