@@ -22,7 +22,10 @@
       "@nx-example-org/prolog-shared-models": [
         "packages/prolog-shared-models/src/index.ts"
       ],
-      "@nx-example-org/ui-shared": ["packages/ui-shared/src/index.ts"]
+      "@nx-example-org/ui-shared": ["packages/ui-shared/src/index.ts"],
+      "@nx-example-org/ui-shared-layout": [
+        "packages/ui-shared-layout/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
