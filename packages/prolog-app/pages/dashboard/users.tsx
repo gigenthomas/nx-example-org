@@ -1,4 +1,4 @@
-import { PageContainer } from "@features/layout";
+import { PageContainer } from "@nx-example-org/ui-shared-layout";
 import type { NextPage } from "next";
 
 const UsersPage: NextPage = () => {
