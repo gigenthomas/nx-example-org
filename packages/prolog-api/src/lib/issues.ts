@@ -1,6 +1,6 @@
 import { axios } from "./axios";
 import type { Issue } from "./issues.types";
-import type { Page } from "@typings/page.types";
+import type { Page } from "@nx-example-org/prolog-shared-models";
 
 const ENDPOINT = "/issue";
 
